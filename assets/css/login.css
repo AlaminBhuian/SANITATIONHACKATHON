@@ -1,0 +1,123 @@
+* {
+	margin:0; padding:0;
+}
+
+body {
+ position:relative;
+ height:100%;
+ /*background:#fff url('../images/login/loginbg.jpg') center top no-repeat;*/
+ font-family:Tahoma, Arial, sans-serif;
+}
+
+img {
+	border:0;
+}
+
+#container {
+	width:100%;
+	margin:0 auto;
+}
+
+#container .logo {
+	/*width:540px;
+	margin:160px auto 0;*/
+	background:#044c9f url('../images/login/index.jpg') center top no-repeat;
+	height:340px;
+}
+
+
+
+#container #box {
+ clear:both;
+ float:none;
+ width:675px;
+ margin:20px auto 0;
+}
+
+p.main label {
+ float:left;
+ padding:5px;
+ display:inline;
+ margin-left:40px;
+ font-size:13px;
+ color:#000;
+ margin-right:10px;
+}
+
+#box p {
+ clear:both;
+ float:none;
+ width:100%;
+}
+
+input {
+ background:url('../assets/input.png') 0 0 repeat-x;
+ border:1px solid #d3d3d3;
+ color:#555;
+ padding:5px;
+ float:left;
+ width:200px;
+}
+
+input.login {
+ float:right;
+ padding:3px 10px 3px 10px;
+ color:#fff;
+ font-size:12px;
+ text-decoration:none;
+ border:1px solid #555;
+ background:url('../assets/rep1.png') 50% 50% repeat-x;
+ display:inline;
+ margin-right:5px;
+ width:90px;
+}
+
+span {
+ font-size:13px;
+ color:#666;
+}
+
+.space {
+ padding-top:15px;
+}
+
+span input {
+ margin-left:125px;
+ margin-right:5px;
+ border:1px solid #111;
+ background:#444;
+ color:#fff;
+}
+
+#footer {
+	position:static;
+	bottom:0;
+	margin:120px 0 0 0;
+	border-top:1px solid #CCCCCC;	
+	text-align:center;
+	font:10px Arial, Helvetica, sans-serif;
+	padding:10px 0;
+}
+.error, .msg{
+	color:#FF0000;
+	font-size:0.85em;
+}
+
+.msg-error {
+	background:#fdcea4 url('../assets/icons/stop_48.png') 10px 50% no-repeat;
+    border: 1px solid #c44509;
+    color: #FF0000;
+	font-size:0.85em;
+    margin: 10px;
+    padding: 15px 10px 15px 75px;
+}
+
+/******** Validation *************************/
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+ 	color: red;
+	font-size:11px;
+}
+div.error, span.error { display: none; }
+input:focus { border: 1px solid black; }
+input.error { border: 1px solid red; }

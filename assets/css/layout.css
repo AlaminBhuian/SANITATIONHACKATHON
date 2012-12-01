@@ -1,0 +1,65 @@
+@import 'core.css';
+@import 'skin_clean.css'; 
+@import 'css3.css';
+@import 'nhrc/jquery-ui-1.8.16.custom.css';
+
+#easyTooltip{
+	padding:5px;
+	border:3px solid #f0f0f0;
+	background:#fff;
+	font-size:11px;
+	color:#333;
+}
+.bangla{
+	font-size:16px;	
+	font-family:SolaimanLipi, SutonnyOMJ, TonnyBanglaOMJ, Vrinda;
+}
+
+.common_reservations{
+    font-family:arial, verdana;
+    text-align:center;
+}
+.common_reservations table{
+    
+    width:50%;
+      text-align:center;
+}
+
+.common_reservations table th{
+    padding:10px;
+    background-color:#D1D6CC;
+	  text-align:center;
+}
+.common_reservations table td{
+    padding:10px 5px;
+    text-transform:capitalize;
+  text-align:center;
+}
+
+fieldset legend {
+	font-weight:normal;
+}
+
+.common_reservations table tr:nth-child(odd){
+    background: #f1f1f1;
+
+}
+.common_reservations table tr:nth-child(even){
+    background-color:#F7F7F7;
+}
+
+#footer {
+	clear:both;
+	background:teal;
+	border-top:1px solid #000;
+    height: 32px;
+	padding:3px 0;
+    width: 100%;
+    z-index: 3;
+	position:relative;
+	color:#FFFFFF;
+	text-align:center;
+	opacity:0.85;
+	filter:alpha(opacity=85); /* For IE8 and earlier */
+	*margin-top:40px;
+}

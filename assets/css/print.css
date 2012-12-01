@@ -1,0 +1,188 @@
+/* Print CSS */
+
+html, body {
+    margin:0;
+    padding:0;
+    font:12px Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align:center;
+    font-weight:bold;
+}
+
+
+.rpt-table {
+    border:none;
+}
+
+.left
+{    
+    width: 200px;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    overflow: visible;
+    border-bottom:2px dotted black;
+}
+
+.bangla{
+    font-family:SutonnyBanglaOMJ;
+    /*font-family:SutonnyMJ;*/
+    font-size:14px;
+}
+.bnumber {
+    font-family:SutonnyMJ;
+    font-size:14px;
+}
+
+.english{
+    font-family:Arial;
+    line-height:16px;
+    font-size:12px;
+}
+
+.number {
+    font-family:SutonnyMJ;
+} 
+.body,td,th{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#000000;
+            
+}
+
+a:link {
+	COLOR:#000000;  text-decoration:none;
+}
+a:visited {
+	COLOR:#000000;  text-decoration:none;
+}
+a:active {
+	COLOR:#000000;  TEXT-DECORATION: none;
+}
+a:hover {
+	COLOR:#000000; font-weight:bold; TEXT-DECORATION: none;
+}
+
+/******** Validation *************************/
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+ 	color: red;
+	font-size:11px;
+}
+div.error { display: none; }
+
+input.checkbox { border: none }
+input:focus { border: 1px solid black; }
+input.error { border: 1px solid red; }
+select.error { border: 1px solid red; color:#FF0000; }
+textarea.error { border: 1px solid red; }
+form.cmxform .gray * { color: gray; }
+
+#divAjaxLoading { 
+	background: url(../images/ajaxld.gif) 8px 6px no-repeat;
+	color:#6b800d;
+	font-size:1.0em;
+	padding:15px 20px 20px 50px;
+}
+
+/* --------------------------------- */
+/*MESSAGE BOX Iconized	  		 */
+	.msg-gray{
+		border:solid 1px #DEDEDE; 
+		background:#EFEFEF;
+		color:#222222;
+		padding:4px;
+		text-align:center;
+		font-size:1.0em;
+	}
+ 
+	.msg-ok{
+		border:solid 1px #90ac13; 
+		background:#eef4d3;
+		color:#6b800d;
+		font-size:1.0em;
+ 		padding:7px 4px 4px 30px;
+ 	}
+	.msg-error{
+		border:solid 1px #CC0000; 
+		background:#F7CBCA;
+		color:#CC0000;
+ 		padding:4px 4px 4px 30px; 	
+		font-size:1.0em;
+	}
+	
+.rpt-table {
+    border:none;
+}
+
+.rpt-table th  { 
+    font-weight:bold;
+    border-bottom:1px #000000 solid;
+    border-top:1px #000000 solid;
+    border-left:1px #000000 solid;
+    vertical-align:top;
+}
+
+.rpt-table .subheading {
+    background-color:#CCCCCC;
+    text-align:center;
+    font-weight:bold;
+    border-bottom:1px #000000 solid;
+    border-top:1px #000000 solid;
+    border-left:1px #000000 solid;
+}
+
+.rpt-table tr, 
+.rpt-table td {
+    margin:0;
+    border-bottom:1px #000000 solid;
+    border-left:1px #000000 solid;
+    padding-left:5px;
+}
+
+
+.rpt-table .last {
+    border-right:1px #000000 solid;
+}
+
+.rpt-table1 tr, 
+.rpt-table1 td {
+    margin:0;
+    font-size:16px;
+}
+
+.head-rpt,
+.head-rpt tr, .head-rpt td
+ {
+    border:1px #000000 solid;
+}
+ 
+.rpt-table .top {
+	border-top:1px #000000 solid;
+}
+
+.return-invoice {
+	background: url(../images/r_char.jpg) center 300px no-repeat;
+}
+
+.sample-invoice {
+	background: url(../images/s_char.jpg) center 300px no-repeat;
+}
+
+.odd {
+	background-color: #fff;
+}
+
+.even {
+	background-color: #F9FBF4; /*color: #797268; #C9DCA6*/
+}
+
+.information {
+	background:#c3e4fd url('../assets/icons/info_48.png') 20px 50% no-repeat;
+	border:1px solid #688fdc;
+	font-size:12px;
+    margin: 10px;
+    padding: 20px 10px 15px 75px;
+}
